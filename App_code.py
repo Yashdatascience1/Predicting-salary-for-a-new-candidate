@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as stc
-import matplotlib.pyplot as plt
+import matplotlib
+from matplotlib import pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import plotly.offline as pyo
