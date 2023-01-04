@@ -1,7 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as stc
-import matplotlib
-from matplotlib import pyplot as plt
+try:
+    import matplotlib.pyplot as plt
+except Exception as e:
+    print(e)
 import seaborn as sns
 import plotly.express as px
 import plotly.offline as pyo
